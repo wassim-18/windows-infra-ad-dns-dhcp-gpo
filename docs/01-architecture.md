@@ -1,4 +1,4 @@
-\# Architecture du lab
+\# Architecture
 
 
 
@@ -10,9 +10,9 @@
 
 |-----------|---------------------|--------------------------|-----------------|
 
-| SRV-DC01  | Windows Server 2022 | AD DS / DNS / DHCP / GPO | 192.168.56.10   |
+| SRV-DC01  | Windows Server      | AD / DNS / DHCP / GPO    | \[IP STATIQUE]   |
 
-| PC-CL01   | Windows 11          | Client domaine           | DHCP            |
+| PC-CL01   | Windows Client      | Client domaine           | DHCP            |
 
 
 
@@ -20,11 +20,11 @@
 
 
 
-\- Réseau : 192.168.56.0/24
+\- Réseau : \[X.X.X.0/24]
 
-\- Passerelle : 192.168.56.1
+\- Passerelle : \[X.X.X.1]
 
-\- DNS : 192.168.56.10
+\- DNS : \[IP DC]
 
 \- DHCP : SRV-DC01
 
@@ -34,9 +34,9 @@
 
 
 
-\- Nom DNS : equitable.local
+\- Nom DNS : \[exemple.local]
 
-\- NetBIOS : EQUITABLE
+\- NetBIOS : \[EXEMPLE]
 
 
 
@@ -44,9 +44,9 @@
 
 
 
-\- Hyperviseur : VirtualBox / VMware / Hyper-V
+\- Plateforme : \[VirtualBox / VMware / Hyper-V]
 
-\- Mode réseau : Host-only / NAT / Bridge
+\- Mode réseau : \[NAT / Bridge / Host-only]
 
 
 
