@@ -1,0 +1,4 @@
+Name,IPAddress,ClientId,Description
+PC-CL01,192.168.56.50,AA-BB-CC-DD-EE-FF,Client principal
+PC-CL02,192.168.56.51,11-22-33-44-55-66,Client secondaire
+PRN-01,192.168.56.60,77-88-99-AA-BB-CC,Imprimante réseau
