@@ -1,0 +1,28 @@
+# OS
+Thumbs.db
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# PowerShell logs
+*.log
+
+# Reports (optional large files)
+evidence/logs/*.log
+
+# Secrets
+*.pfx
+*.pem
+*.key
+*.kdbx
+*.env
+
+# Temp
+tmp/
+temp/
+
+# Build
+dist/
+build/
