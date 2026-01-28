@@ -1,11 +1,27 @@
-# Overview
+# Overview — Windows Infrastructure Lab
 
-Ce projet documente un lab d’infrastructure Windows type entreprise :
+Ce projet documente la conception, le déploiement et la sécurisation
+d’une infrastructure Windows type entreprise.
 
-- Déploiement d’un domaine Active Directory (AD DS)
-- Configuration DNS (zone directe + inverse)
-- Configuration DHCP (étendue, options, réservations)
-- Application de GPO (durcissement + paramètres utilisateurs/ordinateurs)
-- Validation via rapports (gpresult, dcdiag, exports GPO)
+## Objectifs
 
-Objectif : fournir une procédure reproductible + scripts PowerShell + preuves.
+- Déployer un domaine Active Directory (AD DS)
+- Structurer l’annuaire (OU, groupes, RBAC)
+- Configurer DNS (zones, enregistrements)
+- Configurer DHCP (étendues, réservations, options)
+- Appliquer des GPO (durcissement, restrictions, baselines)
+- Valider l’infrastructure avec des rapports techniques
+
+## Environnement
+
+- Hyperviseur : [À REMPLIR]
+- Windows Server : [Version]
+- Clients : [Version]
+- Domaine : [Nom FQDN]
+
+## Livrables
+
+- Scripts PowerShell
+- Documentation technique
+- Captures d’écran
+- Rapports de validation
